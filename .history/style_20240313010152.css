@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gg sans Normal', sans-serif;
+}
+
+.section1 {
+    background-color: #404EED;
+    width: 100%;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-weight: 600;
+}
+.navbar a {
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.navbar li:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.navbar button {
+    color: #23272a;
+    background-color: #fff;
+    border-radius: 9999px;
+    padding: 0.6rem 0.90rem 0.6rem 0.90rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+.navbar button:hover {
+    color: #404EED;
+    text-decoration: underline;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+}
+
+.front-main-content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.front-main-content h1 {
+    font-size: 3.75rem;
+    font-weight: 900;
+    line-height: 45px;
+}
+.front-main-content p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-top: 2.5rem;
+}
+.front-btnGroup {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 100;
+    z-index: 20;
+    padding-bottom: 2.75rem;
+}
+.front-btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}

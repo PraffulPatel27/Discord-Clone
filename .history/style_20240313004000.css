@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gg sans Normal', sans-serif;
+    background-color: #404EED;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-weight: 600;
+}
+.navbar a {
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.navbar li:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.navbar button {
+    color: #23272a;
+    background-color: #fff;
+    border-radius: 9999px;
+    padding: 0.6rem 0.90rem 0.6rem 0.90rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: none;
+}
+.navbar button:hover {
+    color: #404EED;
+    text-decoration: underline;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
