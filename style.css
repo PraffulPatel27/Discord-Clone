@@ -237,3 +237,133 @@
 .RM3-image {
     width: 50%;
 }
+
+
+.section4 {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.main-content4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 7rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.LM4-image {
+    width: 65%;
+}
+.RM4-text {
+    width: 35%;
+    padding-top: 0rem;
+}
+.RM4-text h2 {
+    font-weight: 600;
+    color: #23272a;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.RM4-text p {
+    color: #23272a;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+.section5 {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.main-content5 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 7rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.first-content {
+    max-width: 890px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-content h2 {
+    color: #23272A;
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: 900;
+    line-height: 38px;
+    font-size: 40px;
+}
+.first-content p {
+    color: #23272A;
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: 100;
+    line-height: 38px;
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+.second-content-image {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.third-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.third-content h3 {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 900;
+}
+.third-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 0.5rem;
+    background-color: #404EED;
+    border-radius: 9999px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    border: none;
+}
+.third-content button:hover {
+    --tw-shadow: inset 10px 22px 70px 10px  rgba(255,255,255,0.2),0px 2px 8px rgba(0,0,0,0.4);
+    --tw-shadow-colored: inset 10px 22px 70px 10px var(--tw-shadow-color), 0px 2px 8px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 200ms;
+}
