@@ -6,6 +6,10 @@
     font-family: 'gg sans Normal', sans-serif;
 }
 
+.wrapper {
+    overflow-x: hidden;
+}
+
 .section1 {
     background-color: #404EED;
     width: 100%;
@@ -152,6 +156,6 @@
 .front-img-3 {
     position: absolute;
     bottom: 0px;
-    left: -8rem;
+    left: -10.5rem;
     width: 580px;
 }
