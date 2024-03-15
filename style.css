@@ -367,3 +367,218 @@
     transition-duration: 150ms;
     transition-duration: 200ms;
 }
+
+
+footer {
+    background-color: #23272A;
+}
+.footer-parent-box {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.footer-upper-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-upper-section-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-upper-section-left h3 {
+    color: #5865F2;
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 32px;
+    line-height: 2rem;
+}
+.footer-upper-section-left-languageSelect {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+.img-1 {
+    width: 1.5rem;
+}
+.img-2 {
+    cursor: pointer;
+}
+.footer-upper-section-icon {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 1.5rem;
+}
+.footer-upper-section-icon a {
+    width: 8%;
+}
+.footer-upper-section-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+.box-1 h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #5865F2;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-1 li {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-delay: 200ms;
+    list-style: none;
+}
+.box-1 li:hover {
+    text-decoration-line: underline;
+}
+.box-1 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.box-2 h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #5865F2;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-2 li {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-delay: 200ms;
+    list-style: none;
+}
+.box-2 li:hover {
+    text-decoration-line: underline;
+}
+.box-2 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.box-3 h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #5865F2;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-3 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-3 li {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-delay: 200ms;
+    list-style: none;
+}
+.box-3 li:hover {
+    text-decoration-line: underline;
+}
+.box-3 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.box-4 h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #5865F2;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-4 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'gg sans Normal', sans-serif;
+}
+.box-4 li {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-delay: 200ms;
+    list-style: none;
+}
+.box-4 li:hover {
+    text-decoration-line: underline;
+}
+.box-4 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.footer-middle-section-line {
+    width: 90%;
+    height: 0.05rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1px solid #404EED;
+}
+.footer-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+.footer-bottom-section-button button {
+    background-color: #404EED;
+    border-radius: 9999px;
+    border: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+.footer-bottom-section-button button:hover {
+    --tw-shadow: inset 10px 22px 70px 10px  rgba(255,255,255,0.2);
+    --tw-shadow-colored: inset 10px 22px 70px 10px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
