@@ -124,9 +124,6 @@
     font-weight: 400;
     border: none;
 }
-.sidebar.active {
-    left: 0;
-}
 @media (max-width: 990px) {
     #hideforSmallScreen {
         display: none;
@@ -136,18 +133,26 @@
         margin-right: -57%;
     }
     .closing-btn {
-        display: block;
+        /* display: block;
         position: absolute;
         z-index: 1;
         display: flex;
         top: 3.3%;
-        right: 1.4%;
+        right: 1.4%; */
     }
     .navbar {
         padding-right: 4.2rem;
     }
     .sidebar {
         display: block;
+        .closing-btn {
+            display: block;
+            position: absolute;
+        z-index: 1;
+        display: flex;
+        top: 3.3%;
+        right: 1.4%;
+        }
         /* visibility: visible; */
     }
     .nosidebar {

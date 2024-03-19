@@ -124,9 +124,6 @@
     font-weight: 400;
     border: none;
 }
-.sidebar.active {
-    left: 0;
-}
 @media (max-width: 990px) {
     #hideforSmallScreen {
         display: none;

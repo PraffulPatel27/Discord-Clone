@@ -127,6 +127,10 @@
 .sidebar.active {
     left: 0;
 }
+.menu {
+    position: relative;
+    list-style-type: none;
+  }
 @media (max-width: 990px) {
     #hideforSmallScreen {
         display: none;

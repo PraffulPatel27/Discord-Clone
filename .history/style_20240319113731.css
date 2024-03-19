@@ -88,7 +88,7 @@
     top: 0; 
     right: 0;
     height: 100vh;
-    width: 28%;
+    width: 26%;
     /* background-color: #fff; */
     background-color: orange;
     list-style: none;
@@ -124,9 +124,22 @@
     font-weight: 400;
     border: none;
 }
-.sidebar.active {
+.menu {
+    position: relative;
+    list-style-type: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .closing-btn {
+    display: none;
+  }
+
+  .sidebar.active {
     left: 0;
-}
+  }
 @media (max-width: 990px) {
     #hideforSmallScreen {
         display: none;
@@ -137,11 +150,7 @@
     }
     .closing-btn {
         display: block;
-        position: absolute;
-        z-index: 1;
-        display: flex;
-        top: 3.3%;
-        right: 1.4%;
+        vi
     }
     .navbar {
         padding-right: 4.2rem;
@@ -160,9 +169,6 @@
         visibility: hidden;
     }
     .menu-button {
-        display: none;
-    }
-    .closing-btn {
         display: none;
     }
     .nosidebar {

@@ -96,6 +96,11 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+.closing-btn {
+    display: block;
+    margin-left: 80.5%;
+    margin-top: -5.5%;
+}
   .sidebar li{
     width: 100%;
   }
@@ -124,9 +129,6 @@
     font-weight: 400;
     border: none;
 }
-.sidebar.active {
-    left: 0;
-}
 @media (max-width: 990px) {
     #hideforSmallScreen {
         display: none;
@@ -134,14 +136,6 @@
     .menu-button {
         display: block;
         margin-right: -57%;
-    }
-    .closing-btn {
-        display: block;
-        position: absolute;
-        z-index: 1;
-        display: flex;
-        top: 3.3%;
-        right: 1.4%;
     }
     .navbar {
         padding-right: 4.2rem;
@@ -160,9 +154,6 @@
         visibility: hidden;
     }
     .menu-button {
-        display: none;
-    }
-    .closing-btn {
         display: none;
     }
     .nosidebar {

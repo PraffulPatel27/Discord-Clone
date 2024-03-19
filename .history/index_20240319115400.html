@@ -526,14 +526,12 @@
       function showSidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'flex'
-        document.getElementById('sidebar').classList.add('active');
         document.querySelector('.menu-button').style.display = 'none';
         document.querySelector('.closing-btn').style.display = 'block';
       }
       function hideSidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'none'
-        document.getElementById('sidebar').classList.remove('active');
         document.querySelector('.menu-button').style.display = 'block';
         document.querySelector('.closing-btn').style.display = 'none';
       }
