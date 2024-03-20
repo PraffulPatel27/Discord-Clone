@@ -820,8 +820,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
-    .footer-upper-section-icon a {
-        width: 3%;
+    .footer-upper-section-left {
+        width: 3;
     }
 }
 @media (min-width: 768px) {

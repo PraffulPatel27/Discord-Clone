@@ -632,6 +632,7 @@ footer {
     cursor: pointer;
 }
 .footer-upper-section-icon {
+    border: 2px solid #fff;
     display: flex;
     justify-content: baseline;
     align-items: baseline;
@@ -639,7 +640,7 @@ footer {
     gap: 1.5rem;
 }
 .footer-upper-section-icon a {
-    width: 2.5%;
+    width: 2.8%;
 }
 .footer-upper-section-right {
     /* display: flex;
@@ -819,9 +820,6 @@ footer {
     .footer-upper-section-right {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
-    }
-    .footer-upper-section-icon a {
-        width: 3%;
     }
 }
 @media (min-width: 768px) {

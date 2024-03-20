@@ -13,55 +13,109 @@
       <section class="section1">
         <!-------------------- Nav bar ------------------->
           <nav>
+              <!-- <div class="navbar">
+                  <a href="">
+                      <img src="assets/Logo.svg">
+                  </a>
+
+                  <ul class="nosidebar">
+                      <li id="hideforSmallScreen">
+                          <a href="">Download</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Nitro</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Discover</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Safety</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Support</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Blog</a>
+                      </li>
+      
+                      <li id="hideforSmallScreen">
+                          <a href="">Careers</a>
+                      </li>
+                      <li class="menu-button" onclick=showSidebar()>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                  </ul>
+
+                  <li class="menu-button" onclick=showSidebar()>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 448 512">
+                      <path fill="#f7f7f8" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 
+                      113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 
+                      416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </a>
+                  </li>
+
+                  <li class="closing-btn" onclick=hideSidebar()>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" 
+                      height="25" 
+                      viewBox="0 96 960 960" 
+                      width="25">
+                      <path d="m249 849-42-42 231-231-231-231 42-42 231
+                       231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
+                      </svg>
+                    </a>
+                  </li>
+      
+                  <button class="loginBtn">
+                      Login
+                  </button>
+              </div> -->
+
               <!-- Unordered list 1 / Sidebar -->
               <ul class="sideBar">
-                <div class="sidebar-top-content">
-                  <a href="" class="discord-logo-2"> <img src="assets/Logo.svg">
-                  </a>
-  
-                  <div onclick=hideSidebar() class="closing-btn">
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
-                    </svg></a>
-                  </div>
-                </div>
-
-                <div class="sidebar-bottom-line"></div>
-
-                <li>
-                  <a href="#" class="sideBar-a">Download</a>
+                <li onclick=hideSidebar()>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
+                  </svg></a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Nitro</a>
+                  <a href="#">Download</a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Discover</a>
+                  <a href="#">Nitro</a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Safety</a>
+                  <a href="#">Discover</a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Support</a>
+                  <a href="#">Safety</a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Blog</a>
+                  <a href="#">Support</a>
                 </li>
 
                 <li>
-                  <a href="#" class="sideBar-a">Careers</a>
+                  <a href="#">Blog</a>
+                </li>
+
+                <li>
+                  <a href="#">Careers</a>
                </li>
               </ul>
 
             <!-- Unordered list 2 / main Navbar -->
               <ul class="notSidebar">
-                <div>
-                  <a href="" class="discord-logo"> <img src="assets/Logo.svg">
+                <li>
+                  <a href=""> <img src="assets/Logo.svg">
                   </a>
-                </div>
+                </li>
 
                 <li id="hideforSmallScreen">
                   <a href="#">Download</a>
@@ -99,9 +153,11 @@
                   </a>
                 </li>
 
-                <button class="loginBtn">
-                  Login
-                </button>
+                <li>
+                  <button class="loginBtn">
+                    Login
+                  </button>
+                </li>
               </ul>
           </nav>
   
@@ -522,12 +578,10 @@
       function showSidebar(){
         const sidebar = document.querySelector('.sideBar')
         sidebar.style.display = 'flex'
-        document.querySelector('.discord-logo').style.display = 'none';
       }
       function hideSidebar(){
         const sidebar = document.querySelector('.sideBar')
         sidebar.style.display = 'none'
-        document.querySelector('.discord-logo').style.display = 'block';
       }
     </script>
 </body>

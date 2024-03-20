@@ -821,7 +821,7 @@ footer {
         grid-template-rows: 1fr;
     }
     .footer-upper-section-icon a {
-        width: 3%;
+        width: 10%;
     }
 }
 @media (min-width: 768px) {
