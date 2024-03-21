@@ -508,7 +508,6 @@
     font-weight: 900;
     line-height: 38px;
     font-size: 40px;
-    text-align: center;
 }
 .first-content p {
     color: #23272A;
@@ -593,7 +592,7 @@
         /* justify-content: space-around; */
     }
     .first-content h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 

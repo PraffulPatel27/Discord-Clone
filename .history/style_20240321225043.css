@@ -508,7 +508,6 @@
     font-weight: 900;
     line-height: 38px;
     font-size: 40px;
-    text-align: center;
 }
 .first-content p {
     color: #23272A;
@@ -586,14 +585,10 @@
         /* gap: 3rem; */
         flex-direction: row;
         /* padding: 0.8rem 1rem; */
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
         font-size: 1.1rem;
-        gap: 0.8rem;
-        /* justify-content: space-around; */
-    }
-    .first-content h2 {
-        font-size: 35px;
+        gap: 2rem;
     }
 }
 
