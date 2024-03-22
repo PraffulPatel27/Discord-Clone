@@ -245,7 +245,6 @@
     .notSidebar {
         padding-left: 1.5rem;
     }
-}
 @media (min-width: 768px) {
     .front-main-content h1 {
         font-size: 3.75rem;
@@ -789,7 +788,10 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    /* align-items: center; */
     padding-bottom: 2rem;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
     margin-left: 3.8rem;
     margin-right: 3.8rem;
 }

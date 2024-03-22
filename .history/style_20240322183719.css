@@ -86,6 +86,9 @@
     .notSidebar li {
       display: none;
     }
+    /* .notSidebar {
+        display: none;
+    } */
 }
 .notSidebar {
     display: flex;
@@ -136,8 +139,10 @@
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
+    /* text-align: center; */
     text-align: left;
     color: #fff;
+    /* padding-top: 120px; */
     padding-top: 60px;
     padding-bottom: 280px;
     padding-left: 3.5rem;
@@ -231,19 +236,15 @@
     position: absolute;
     bottom: 0px;
     width: 580px;
+    /* margin-left: auto;
+    margin-right: auto; */
     align-self: center;
 }
 @media (max-width: 768px) {
     .front-img-3 {
         width: 450px;
-        left: -5.5rem;
-    }
-    .main-content5 {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-    .notSidebar {
-        padding-left: 1.5rem;
+        float: left;
+        align-self: flex-start;
     }
 }
 @media (min-width: 768px) {
@@ -300,6 +301,12 @@
     align-self: center;
     gap: 1rem;
     padding-bottom: 4rem
+}
+.LM2-image {
+    /* width: 60%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 .LM2-image img {
     width: 95%;
@@ -363,6 +370,7 @@
     padding-bottom: 2.5rem;
 }
 .LM3-text {
+    /* width: 32%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -383,6 +391,12 @@
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin-top: 1.5rem;
+}
+.RM3-image {
+    /* width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 .RM3-image img {
     width: 95%;
@@ -422,10 +436,17 @@
     gap: 1rem;
     padding-bottom: 2rem;
 }
+.LM4-image {
+    /* width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
 .LM4-image img {
     width: 94%;
 }
 .RM4-text {
+    /* width: 35%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -558,14 +579,6 @@
     transition-duration: 150ms;
     transition-duration: 200ms;
 }
-@media (max-width: 350px) {
-    .third-content button span {
-        width: 60%;
-    }
-    .third-content button {
-        padding: 0.5rem 1.5rem;
-    }
-}
 @media (min-width: 480px) {
     .third-content button {
         width: fit-content;
@@ -575,20 +588,19 @@
 }
 @media (max-width: 480px) {
     .third-content button {
+        /* width: fit-content; */
+        /* padding: 1rem 2rem 1rem 2rem; */
+        /* gap: 3rem; */
         flex-direction: row;
+        /* padding: 0.8rem 1rem; */
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.1rem;
         gap: 0.8rem;
+        /* justify-content: space-around; */
     }
     .first-content h2 {
         font-size: 35px;
-    }
-}
-@media (max-width: 768px) {
-    .main-content5 {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
     }
 }
 
@@ -647,12 +659,17 @@ footer {
     width: 2.5%;
 }
 .footer-upper-section-right {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    /* gap: 5rem; */
     row-gap: 3.5rem;
     column-gap: 1rem;
     width: 100%;
+    /* border: 2px solid #fff; */
 }
 .box-1 h4 {
     font-size: 1.125rem;
@@ -788,8 +805,10 @@ footer {
 .footer-bottom-section {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    /* align-items: center; */
     padding-bottom: 2rem;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
     margin-left: 3.8rem;
     margin-right: 3.8rem;
 }
@@ -812,12 +831,6 @@ footer {
     --tw-shadow: inset 10px 22px 70px 10px  rgba(255,255,255,0.2);
     --tw-shadow-colored: inset 10px 22px 70px 10px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-@media (max-width: 380px) {
-    .footer-bottom-section {
-        flex-direction: column;
-        row-gap: 1.5rem;
-    }
 }
 @media (min-width: 380px) {
     .footer-upper-section-right {
