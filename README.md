@@ -1,14 +1,14 @@
 <h1> ⭐ Discord Website Clone ⭐ </h1> <br>
  <h3> A clone of the popular Discord website, built using HTML5, CSS3, and JavaScript. </h3>
 <br>
-<h2> 📌 Live Site URL: Visit Now 🚀 </h2>
+<h2> 📌 Live Site URL: <a href="https://praffulpatel27.github.io/Discord-Clone/"> Visit Now 🚀 </a> </h2>
 
 <h2> 📌 Tech Stack </h2> <br><br>
  
  
 
 <h2> 📌 Overview </h2> <br><br>
-
+<img src="https://drive.google.com/file/d/1qVFbqRkkRSp0k1vTV9Hzaz8UxQSPNx76/view?usp=sharing" > <br>
 
 
 <h2> 📌 My Process </h2<br>
