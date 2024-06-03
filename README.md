@@ -1,4 +1,4 @@
-⭐ Discord Website Clone ⭐
+⭐ Discord Website Clone ⭐ <br>
 A clone of the popular Discord website, built using HTML5, CSS3, and JavaScript.
 
 📌 Live Site URL: Visit Now 🚀
