@@ -5,7 +5,7 @@
 <h2> 📌 Tech Stack </h2>
  
 <h2> 📌 Overview </h2> <br><br>
-![Discord clone full page]_(https://github.com/PraffulPatel27/Discord-Clone/assets/110104505/f86ceea0-d43c-4456-b6d2-1a6ad7b6db13)
+![Discord clone full page](https://github.com/PraffulPatel27/Discord-Clone/assets/110104505/8a9d4d77-5a5a-4e79-a1ae-7e795d57fd59)
 
 <h2> 📌 My Process </h2
 <p> I started by researching the structure and design of the original Discord website. </p> 
